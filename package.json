@@ -1,0 +1,17 @@
+{
+  "name": "@asakura-dev/vite-plugin-open-url-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "playground/*"
+  ],
+  "keywords": [
+    "vite",
+    "plugin",
+    "open",
+    "url"
+  ],
+  "author": "asakura-dev",
+  "license": "MIT"
+}
