@@ -13,5 +13,9 @@
   "workspaces": [
     "packages/*",
     "playground/*"
-  ]
+  ],
+  "scripts": {
+    "build": "npm run build -w=packages/vite-plugin-open-url",
+    "dev": "npm run dev -w=packages/vite-plugin-open-url && npm run dev -w=playground/react"
+  }
 }
