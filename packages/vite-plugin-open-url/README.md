@@ -62,6 +62,10 @@ export default defineConfig({
 - `paths` (optional): An array of paths to select from.
 - `url` (optional): A function that returns the URL to open based on the target (`ios`, `android`, `web`) and the default URL.
 
+## Acknowledgement
+
+vite-plugin-open-url was inspired by the excellent developer experience of [Expo CLI](https://github.com/expo/expo/tree/main/packages/%40expo/cli).
+
 ## License
 
 MIT
