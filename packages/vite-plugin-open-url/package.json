@@ -1,6 +1,6 @@
 {
   "name": "@asakura-dev/vite-plugin-open-url",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A Vite plugin to open URLs in iOS Simulator, Android Emulator, or Web.",
   "repository": {
     "type": "git",
