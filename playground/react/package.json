@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@asakura-dev/vite-plugin-open-url": "^0.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -24,8 +25,7 @@
     "globals": "^15.15.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
-    "vite": "^6.2.0",
-    "vite-plugin-open-url": "workspace:*"
+    "vite": "^6.2.0"
   },
   "author": "asakura-dev",
   "license": "MIT"

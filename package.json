@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "build": "npm run build -w=packages/vite-plugin-open-url",
-    "dev": "npm run dev -w=packages/vite-plugin-open-url && npm run dev -w=playground/react"
+    "dev": "npm run dev -w=packages/vite-plugin-open-url && npm run dev -w=playground/react",
+    "test": "npm run test -w=packages/vite-plugin-open-url"
   }
 }

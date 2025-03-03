@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import vitePluginOpenUrl from "vite-plugin-open-url";
+import vitePluginOpenUrl from "@asakura-dev/vite-plugin-open-url";
 
 // https://vite.dev/config/
 export default defineConfig({
