@@ -44,7 +44,11 @@
     "build": "unbuild",
     "dev": "unbuild --stub",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "release": "npm run release:patch",
+    "release:major": "npm run test && npm run build && npm version major -m \"chore: release v%s\" && npm publish && git push && git push --tags",
+    "release:minor": "npm run test && npm run build && npm version minor -m \"chore: release v%s\" && npm publish && git push && git push --tags",
+    "release:patch": "npm run test && npm run build && npm version patch -m \"chore: release v%s\" && npm publish && git push && git push --tags"
   },
   "types": "./dist/index.d.ts"
 }

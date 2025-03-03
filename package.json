@@ -17,6 +17,10 @@
   "scripts": {
     "build": "npm run build -w=packages/vite-plugin-open-url",
     "dev": "npm run dev -w=packages/vite-plugin-open-url && npm run dev -w=playground/react",
-    "test": "npm run test -w=packages/vite-plugin-open-url"
+    "test": "npm run test -w=packages/vite-plugin-open-url",
+    "release": "npm run release -w=packages/vite-plugin-open-url",
+    "release:major": "npm run release:major -w=packages/vite-plugin-open-url",
+    "release:minor": "npm run release:minor -w=packages/vite-plugin-open-url",
+    "release:patch": "npm run release:patch -w=packages/vite-plugin-open-url"
   }
 }
